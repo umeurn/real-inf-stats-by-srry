@@ -1,6 +1,6 @@
 local settings = {
-    PointSlot = 'Slot1',
-    NamekianSlot = 'Slot2',
+    PointSlot = 'Slot2',
+    NamekianSlot = 'Slot1',
 }
 
 
@@ -61,7 +61,7 @@ end
 
 
 -- earth --
-sendNotification("srry1667", 'Discord: srry1667')
+sendNotification("Lost's inf stat", 'Discord: itslxst')
 
 local wiping: boolean = false
 local killnpcs: boolean = true
@@ -186,11 +186,11 @@ local function doStuff(): ()
             task.wait(.35)
             chatS:FireServer(npcs['Korin'].Chat.Chat)
             chatA:FireServer({[1] = 'k'})
-            task.wait(0.1)
+            task.wait(.35)
             chatA:FireServer({[1] = 'k'})
-            task.wait(0.1)
+            task.wait(.35)
             chatA:FireServer({[1] = 'DRINK'})
-            task.wait(0.1)
+            task.wait(1)
             char:BreakJoints()
             task.wait(5)
         else
@@ -198,8 +198,8 @@ local function doStuff(): ()
 
             speedChat({[1] = 'Yes'}, 'Alright')
             speedChat({[1] = 'k'}, 'Which slot would you like to play in?')
-            speedChat({[1] = settings.PointSlot}, 'Loading!', 0.1)
-            task.wait(0.1)
+            speedChat({[1] = settings.PointSlot}, 'Loading!', .2)
+            task.wait(.130)
             chatS:FireServer(kami.Chat)
             chatA:FireServer({[1] = 'k'})
 
