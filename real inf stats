@@ -1,6 +1,6 @@
 local settings = {
-    PointSlot = 'Slot2',
-    NamekianSlot = 'Slot1',
+    PointSlot = 'Slot1',
+    NamekianSlot = 'Slot2',
 }
 
 
@@ -61,7 +61,7 @@ end
 
 
 -- earth --
-sendNotification("Lost's inf stat", 'Discord: itslxst')
+sendNotification("Srry1667 inf stats", 'Discord: gg/hound')
 
 local wiping: boolean = false
 local killnpcs: boolean = true
