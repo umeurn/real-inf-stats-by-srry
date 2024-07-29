@@ -1,7 +1,6 @@
 local settings = {
     PointSlot = 'Slot1',
     NamekianSlot = 'Slot2',
-EnableLag = true,
 }
 
 
